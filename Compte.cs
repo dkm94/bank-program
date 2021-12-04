@@ -18,9 +18,10 @@ namespace Banque // Nom du projet
 
         protected String titulaire; // on déclare l'attribut titulaire utilisé exclusivement à l'intérieur de la classe 
         // C'est une variable de type String
-        public String Titulaire{ // la propriété Titulaire sera utilisée à l'extérieur de la classe
-            get{return titulaire;} // le getter retourne le titulaire
-            set{titulaire= value;} // le setter stocke la valeur de la propriété Titulaire
+        public String Titulaire
+        { // la propriété Titulaire sera utilisée à l'extérieur de la classe
+            get { return titulaire; } // le getter retourne le titulaire
+            set { titulaire = value; } // le setter stocke la valeur de la propriété Titulaire
         }
 
         public Compte(String nom){ // Constructeur de Compte: nom
@@ -33,11 +34,11 @@ namespace Banque // Nom du projet
         }
 
 
-        public abstract void retrait(double montant); // méthode abstract = méthode virtuelle, autorisée car dans une classe abstract
+        public abstract void retrait(double somme); // méthode abstract = méthode virtuelle, autorisée car dans une classe abstract
         // elle sera définie dans les enfants via une méthode override du même nom (retrait)
 
-        public virtual void depot(double montant){ // méthode virtual = méthode qui pourra être modifiée dans les enfants
-            solde += montant; // solde = solde + montant
+        public virtual void depot(double somme){ // méthode virtual = méthode qui pourra être modifiée dans les enfants
+            solde += somme; // solde = solde + somme
         }
     }
 }

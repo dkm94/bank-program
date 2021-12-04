@@ -17,13 +17,13 @@ namespace Banque // Nom du projet
             // Dans Program, la fonction CompteJeune prendra en param le string "nom" et le numérique "solde" hérité de Compte
         }
         
-        public override void retrait(double montant)
-        {   // On utilisera la fonction retrait sur les nouvelles instances crées dans Program, en passant en param le montant du retrait souhaité
+        public override void retrait(double somme)
+        {   // On utilisera la fonction retrait sur les nouvelles instances crées dans Program, en passant en param le somme du retrait souhaité
             // on réécrit la fonction retrait de Compte qu'on avait déclarée sans corps
-            if(solde - montant < 0){ // si le solde - montant du retrait est inférieur à 0
+            if(solde - somme < 0){ // si le solde - somme du retrait est inférieur à 0
                 throw new DecouvertException(); // Si découvert, on retourne une nouvelle Exception (qu'on a créée)
             }
-            solde = solde - montant; // sinon le nouveau solde est égal à solde - montant du retrait
+            solde -= somme; // sinon le nouveau solde est égal à solde - somme du retrait
         }
     }
 

@@ -15,17 +15,17 @@ namespace Banque // Nom du projet
             {
                 Console.WriteLine($"{compteA.Titulaire} a un solde de base de {compteA.Solde}€"); // solde de base Amanda
                 compteA.retrait(100);
-                Console.WriteLine($"{compteA.Titulaire} a un solde après retrait de {compteA.Solde}€"); // Solde après retrait
+                Console.WriteLine($"{compteA.Titulaire} a un solde après 1er retrait de {compteA.Solde}€"); // Solde après retrait
                 compteA.retrait(300); // 2e retrait
 
                 Console.WriteLine($"{compteJ.Titulaire} a un solde de base de {compteJ.Solde}€"); // solde de base Joan
-                compteJ.retrait(300);
-                Console.WriteLine($"{compteJ.Titulaire} a un solde après retrait de {compteJ.Solde}€"); // Solde après retrait
-                compteJ.retrait(1000); // 2e retrait
+                compteJ.retrait(1000);
+                Console.WriteLine($"{compteJ.Titulaire} a un solde après 1er retrait de {compteJ.Solde}€"); // Solde après retrait
+                compteJ.retrait(1500); // 2e retrait
 
                 Console.WriteLine($"{compteK.Titulaire} a un solde de base de {compteK.Solde}€"); // solde de base Karim
                 compteK.retrait(100);
-                Console.WriteLine($"{compteK.Titulaire} a un solde après retrait de {compteK.Solde}€"); // Solde après retrait
+                Console.WriteLine($"{compteK.Titulaire} a un solde après 1er retrait de {compteK.Solde}€"); // Solde après retrait
                 compteK.depot(500);
             }
             catch(DecouvertException de)
