@@ -1,0 +1,15 @@
+C:\Users\dalin\Documents\workspace\CoursCsharp\banque\bin\MCD\Debug\net6.0\banque.exe
+C:\Users\dalin\Documents\workspace\CoursCsharp\banque\bin\MCD\Debug\net6.0\banque.deps.json
+C:\Users\dalin\Documents\workspace\CoursCsharp\banque\bin\MCD\Debug\net6.0\banque.runtimeconfig.json
+C:\Users\dalin\Documents\workspace\CoursCsharp\banque\bin\MCD\Debug\net6.0\banque.dll
+C:\Users\dalin\Documents\workspace\CoursCsharp\banque\bin\MCD\Debug\net6.0\ref\banque.dll
+C:\Users\dalin\Documents\workspace\CoursCsharp\banque\bin\MCD\Debug\net6.0\banque.pdb
+C:\Users\dalin\Documents\workspace\CoursCsharp\banque\obj\MCD\Debug\net6.0\banque.csproj.AssemblyReference.cache
+C:\Users\dalin\Documents\workspace\CoursCsharp\banque\obj\MCD\Debug\net6.0\banque.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dalin\Documents\workspace\CoursCsharp\banque\obj\MCD\Debug\net6.0\banque.AssemblyInfoInputs.cache
+C:\Users\dalin\Documents\workspace\CoursCsharp\banque\obj\MCD\Debug\net6.0\banque.AssemblyInfo.cs
+C:\Users\dalin\Documents\workspace\CoursCsharp\banque\obj\MCD\Debug\net6.0\banque.csproj.CoreCompileInputs.cache
+C:\Users\dalin\Documents\workspace\CoursCsharp\banque\obj\MCD\Debug\net6.0\banque.dll
+C:\Users\dalin\Documents\workspace\CoursCsharp\banque\obj\MCD\Debug\net6.0\ref\banque.dll
+C:\Users\dalin\Documents\workspace\CoursCsharp\banque\obj\MCD\Debug\net6.0\banque.pdb
+C:\Users\dalin\Documents\workspace\CoursCsharp\banque\obj\MCD\Debug\net6.0\banque.genruntimeconfig.cache
